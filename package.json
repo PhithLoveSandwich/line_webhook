@@ -1,0 +1,32 @@
+{
+  "name": "n",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "line",
+    "chatbot",
+    "webbook"
+  ],
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": "10"
+  },
+  "dependencies": {
+    "@line/bot-sdk": "^9.2.2",
+    "actions-on-google": "^2.2.0",
+    "body-parser": "^1.20.2",
+    "dialogflow-fulfillment": "^0.5.0",
+    "express": "^4.19.2",
+    "serve-favicon": "^2.5.0"
+  },
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
