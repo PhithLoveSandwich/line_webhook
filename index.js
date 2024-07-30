@@ -49,6 +49,9 @@ app.post("/webhook", (req, res) => {
     }
     const flexMessage = {};
 
+    //let Payload = new Payload("LINE", flexMessage, { sendAsMessage: TRUE });
+    //agent.add(Payload);
+
     agent.add(result);
   }
 
@@ -63,3 +66,4 @@ app.post("/webhook", (req, res) => {
 app.listen(port, () => {
   console.log("Server is running at http://localhost:" + port);
 });
+
